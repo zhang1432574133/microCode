@@ -1,0 +1,78 @@
+/**index.wxss**/
+.login_btn{
+  background: transparent;
+  border: 0;
+  outline: none;
+  font-size: 28rpx;
+  text-align: left;
+  margin-left: 20rpx;
+}
+.icon-shouye{
+  font-size: 50rpx;
+  color: firebrick;
+}
+
+.userinfo {
+  padding: 28rpx 56rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 20rpx solid #f5f4f7;
+}
+
+.userinfo-avatar,.userinfo-avatar-on {
+  width: 108rpx;
+  height: 108rpx;
+  background: #c9c9c9;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.userinfo-avatar-on{
+  background: transparent;
+}
+.userinfo-nickname {
+  color: #333;
+  margin-left: 32rpx;
+}
+.user-cell{
+  color: #333;
+  min-height: 90rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 20rpx solid #f5f4f7;
+  padding: 0 56rpx;
+  font-size: 32rpx;
+  line-height: 1;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.right_arrow{
+  content: " ";
+  display: inline-block;
+  height: 16rpx;
+  width: 16rpx;
+  border-width: 4rpx 4rpx 0 0;
+  border-color: #777777;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 56rpx;
+}
+.routelinks{
+  width: 100%;
+}
+.tel{
+  font-size: 28rpx;
+  color: #666666;
+  padding: 20rpx 20rpx;
+  display: block;
+  border-bottom: 20rpx solid #f5f4f7;
+  border-left:6rpx solid #ee8b16;
+}
+.navigator-hover{
+  background: #ffffff;
+}

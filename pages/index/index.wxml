@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="containers">
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo && canIUse}}">
+      <image  class="userinfo-avatar-on" src="../../image/face.png"></image>
+      <button type="button"  open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='login_btn'> 登录</button>
+    </block>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view><navigator url="../tel/tel" class='tel'>常用快递电话 </navigator></view>
+</view>
+
+

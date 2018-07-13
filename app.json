@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/express/express",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tel/tel"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff781c",
+    "navigationBarTitleText": "查快递",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#ff781c",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/express/express",
+        "text": "查快递",
+        "iconPath": "/image/saomiao.png",
+        "selectedIconPath": "/image/saomiao_on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的快递",
+        "iconPath": "/image/kuaidi.png",
+        "selectedIconPath": "/image/kuaidi_on.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
